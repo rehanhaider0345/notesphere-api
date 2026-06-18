@@ -1,5 +1,5 @@
 <?php
-
+require_once "db.php";
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -14,7 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS')
     exit();
 }
 
-include "db.php";
 
 $json = file_get_contents("php://input");
 $data = json_decode($json, true);
