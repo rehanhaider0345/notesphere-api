@@ -1,6 +1,5 @@
 <?php
-include "db.php";
-
+require_once "db.php";
 $data = json_decode(file_get_contents("php://input"), true);
 
 $note_id = intval($data["note_id"]);
