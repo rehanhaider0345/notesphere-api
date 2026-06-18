@@ -12,10 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS')
 
 /* ================= DB CONFIG ================= */
 
-$host = "sql103.infinityfree.com";
-$user = "if0_42188314";
-$pass = "Fastnuces2027";
-$db   = "if0_42188314_notesphere";
+$host = "sql12.freesqldatabase.com";
+$user = "sql12830855";
+$pass = "4cuFbacbWF";
+$db   = "sql12830855";
 
 /* ================= CONNECTION ================= */
 
