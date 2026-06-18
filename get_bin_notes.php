@@ -1,8 +1,6 @@
 <?php
-
+require_once "db.php";
 header("Content-Type: application/json");
-include "db.php";
-
 $user_id = $_GET['user_id'] ?? null;
 
 if (!$user_id)
